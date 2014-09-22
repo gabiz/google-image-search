@@ -21,7 +21,6 @@ public class ImageResultsAdapter extends ArrayAdapter<ImageResult> {
         super(context, android.R.layout.simple_list_item_1, images);
     }
 
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ImageResult imageInfo = getItem(position);
