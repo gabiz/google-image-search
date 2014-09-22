@@ -25,12 +25,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.gabiq.googleimagesearch.activities.ImageDisplayActivity"
+            android:name=".activities.ImageDisplayActivity"
             android:label="@string/title_activity_image_display"
             android:parentActivityName=".activities.SearchActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.gabiq.googleimagesearch.activities.SearchActivity" />
+        </activity>
+        <activity
+            android:name="com.gabiq.googleimagesearch.activities.SettingsActivity"
+            android:label="@string/title_activity_settings" >
         </activity>
     </application>
 
